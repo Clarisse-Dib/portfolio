@@ -1,0 +1,39 @@
+a{
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    background-color: crimson;
+    width: fit-content;
+    padding: 12px 24px;
+    border-radius: 999px;
+    display: flex;
+    gap: 18px;    
+    position: fixed;
+    box-shadow: 0 10px 30px #00000052;
+    margin-top: 12px;
+}
+.header{
+    display: flex;
+    height: 60vh;
+    img{
+        width: 40%;
+        object-fit: cover;
+    }
+}
+.home-h1{
+    background-image: url(hero-right.jpg);
+    width: 60%;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+}
+.class{
+
+}
