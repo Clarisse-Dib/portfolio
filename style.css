@@ -1,39 +1,89 @@
 a{
-    
+text-decoration: none;
 }
 body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: rgb(254, 247, 230);
 }
 nav{
-    background-color: crimson;
+    background-color: #638a50ce;
     width: fit-content;
     padding: 12px 24px;
     border-radius: 999px;
     display: flex;
-    gap: 18px;    
+    gap: 18px;
     position: fixed;
-    box-shadow: 0 10px 30px #00000052;
+    box-shadow: 0 10px 30px #deffd952;
     margin-top: 12px;
 }
 .header{
     display: flex;
-    height: 60vh;
+    height: 54vh;
     img{
-        width: 40%;
+        width: 29%;
+        height: 50vh;
         object-fit: cover;
+        border-radius: 0 0 0 30px;
     }
 }
 .home-h1{
-    background-image: url(hero-right.jpg);
-    width: 60%;
+    background-image: url(Sunflower.jpg);
+    width: 71vw;
+    height: 50vh;
     align-content: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     margin: 0;
+    border-radius: 0 0 30px 0;
+    font-size: 60px;
 }
-.class{
-
+h2{
+    font-size: 30px;
+}
+#presentation{
+display: flex;
+justify-content: space-around;
+width: 100vw;
+color: rgb(29, 21, 2);
+height: 46vh;
+border-radius: 30px;
+}
+.info{ 
+    width: 6cm;
+    margin-bottom: 15px;
+}
+#compétences{
+    padding-top: 50px;
+    background-color: rgb(176, 194, 145);
+    /* background-color:  */
+    padding-bottom: 20px;
+}
+#comp{
+    text-align: center;
+    font-size: 45px;
+}
+.car{
+ display: flex;
+ justify-content: center;
+ height: 47vh;
+ width:100vw;
+}
+.carrée{
+    margin: 30px;
+    margin-top: 30px;
+    color:rgb(11, 24, 9);
+    background-color: #638a50ce;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 187px;
+}
+.comptest {
+    background-color: #0b100b;
+    width: 25%;
+    color: white;
+    text-align: center;
+}
+.comptest span {
+    font-size: 100px;
 }
