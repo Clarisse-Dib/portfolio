@@ -28,6 +28,10 @@ nav{
         border-radius: 0 0 0 30px;
     }
 }
+h1{
+    color: cornsilk;
+    
+}
 .home-h1{
     background-image: url(Sunflower.jpg);
     width: 71vw;
@@ -87,8 +91,10 @@ width: 100%;
     background-color: #638a50ce;
     border-radius: 20px;
     padding: 20px;
-    text-align: center;
     width: 187px;
+}
+.Skills{
+    text-align: center;
 }
 .comptest {
     background-color: #0b100b;
