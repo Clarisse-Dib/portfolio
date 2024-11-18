@@ -1,5 +1,7 @@
 a{
 text-decoration: none;
+color: rgb(45, 36, 0);
+font-size: medium;
 }
 body{
     background-color: rgb(254, 247, 230);
@@ -30,7 +32,13 @@ nav{
 }
 h1{
     color: cornsilk;
-    
+    font-family: 'Comfortaa';
+}
+h2, h3, h4{
+    font-family: 'Comfortaa';  
+}
+p {
+    font-family: 'Palanquin';
 }
 .home-h1{
     background-image: url(Sunflower.jpg);
@@ -56,17 +64,14 @@ height: 47vh;
 border-radius: 30px;
 }
 .info{ 
-    width: 603px;
+    width: 50%;
     margin-bottom: 15px;
 }
 .bold{
     font-weight: bold;
 }
 .diplômes{
-    width: 300px;
-}
-main{
-    width: 100%;
+    width: 25%;
 }
 #compétences{
     padding-top: 50px;
@@ -150,7 +155,7 @@ align-items: center;
 }
 #B{
     width: 600px;
-    height: 392px;
+    height: 405px;
 }
 #C-projet{
     width: 400px;
@@ -164,3 +169,88 @@ align-items: center;
     margin-left: 470px;
     margin-top: -125px;
 }
+button{
+    background-color:  rgb(224, 255, 193);
+    border-width: 0;
+    padding: 8px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #d3ffa7;
+}
+.empty{
+    width: 100px;
+    border-bottom: 5px solid rgb(176, 194, 145);
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .header{
+        height: 35vh;
+        img{
+            height: 35vh;
+        }
+    }
+    .home-h1{
+        height: 35vh;
+    }
+    #presentation{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+    text-align: center;
+    }
+    .info{
+    width: 100%;  
+    text-align: center;  
+    }
+    .diplômes{
+        width: 100%;
+        text-align: center;
+    }
+#compétences{
+    padding-top: 10px;
+}
+.car{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+    #Hel{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #A-projet{
+        width: 300px;
+    }
+    #A{
+        margin: 5px;
+        width: 300px;
+    }
+    #B-projet{
+        width: 300px;
+        height: 230px;
+    }
+    #B{
+        margin: 5px;
+        width: 300px;
+
+    }
+    #C-projet{
+        width: 300px;
+    }
+    #C{
+        margin: 5px;
+        width: 300px;
+    }
+#contacter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  }
