@@ -10,14 +10,15 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Palanquin" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/7f965085dc.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=favorite" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=favorite" />
 </head>
 
 <body>
     <nav>
         <a class="navigation" href="#accueil">Accueil</a>
         <a class="navigation" href="#competances">Compétences</a>
-        <a class="navigation" href="#titre-projet">Projets</a>
+        <a class="navigation" href="#projet-container">Projets</a>
         <a class="navigation" href="#contact"> Contact</a>
     </nav>
     <header class="header">
@@ -42,8 +43,8 @@
             </div>
         </section>
         <!-- COMPéTENCES -->
-        <section id="competances">
-            <h2 id="comp"> Mes compétences</h2>
+        <section id="competences">
+            <h2 id="competences-title"> Mes compétences</h2>
             <section class="competences-cards">
                 <!-- PREMIER CARRé -->
                 <section class="carrée">
@@ -93,64 +94,91 @@
             </h2>
             <section id="projet-container">
                 <!-- 1 Carte -->
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                    <section id="A-card" class="projet-card">
-                        <img  id="A-image" src="lanterne.jpg" alt="2-projet">
-                        <div class="bas-card">
-                            <h3> Poisson-lanterne</h3>
-                            <p> Réaliser avec le logiciel de 3D Maya. Ce projet représente un hover-borde inspirer par
-                                le
-                                poisson lanterne.
-                            </p>
-                        </div>
-                    </section>
+                <a id="A-card" class="projet-card" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                    <img id="A-image" src="lanterne.jpg" alt="2-projet">
+                    <div class="bas-card">
+                        <h3> Poisson-lanterne</h3>
+                        <p> Réaliser avec le logiciel de 3D Maya. Ce projet représente un hover-borde inspirer par
+                            le
+                            poisson lanterne.
+                        </p>
+                    </div>
                 </a>
                 <!-- 2 CARTE -->
 
-                <a href="https://github.com/Clarisse-Dib/renduCSS.git">
-                    <section id="B-card" class="projet-card">
-                        <img id="B-image" src="Tevent.PNG" alt="1-projet">
-                        <div class="bas-card">
-                            <h3> Site évenmentiel</h3>
-                            <p> Réaliser avec CSS et Html. Ce projet représente un site d'évenmentielles centrer sur le
-                                domène spatiale.
+                <a id="B-card" class="projet-card" href="https://github.com/Clarisse-Dib/renduCSS.git">
+                    <img id="B-image" src="Tevent.PNG" alt="1-projet">
+                    <div class="bas-card">
+                        <h3> Site évenmentiel</h3>
+                        <p> Réaliser avec CSS et Html. Ce projet représente un site d'évenmentielles centrer sur le
+                            domène spatiale.
 
-                            </p>
-                        </div>
-                    </section>
+                        </p>
+                    </div>
                 </a>
                 <!-- 3 Carte -->
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                    <section id="C-card" class="projet-card">
-                        <img id="C-image" src="village.jpg" alt="3-projet">
-                        <div class="bas-card">
-                            <h3> Niveau de jeu</h3>
-                            <p> Réaliser avec Unity. Le but de ce projet était de faire un niveau de jeu vidéo
-                                compréhensible sans la moindre indication.
+                <a id="C-card" class="projet-card" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                    <img id="C-image" src="village.jpg" alt="3-projet">
+                    <div class="bas-card">
+                        <h3> Niveau de jeu</h3>
+                        <p> Réaliser avec Unity. Le but de ce projet était de faire un niveau de jeu vidéo
+                            compréhensible sans la moindre indication.
 
-                            </p>
-                        </div>
-                    </section>
+                        </p>
+                    </div>
+                </a>
+                <!-- 4 Carte -->
+                <a id="D-card" class="projet-card" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                    <img id="D-image" src="foodApp.png" alt="4-projet">
+                    <div class="bas-card">
+                        <h3> Site de partage de repas</h3>
+                        <p> Réaliser avec Figma. Le bute de se projet était d'intérogger de potentiels utilisateurs et
+                            créer une application répondant à leurs attentes.
+
+                        </p>
+                    </div>
+                </a>
+                <!-- 5 Carte -->
+                <a id="E-card" class="projet-card" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                    <img id="E-image"src="brezilien.png" alt="5-projet">
+                    <div class="bas-card">
+                        <h3> Site d'un restaurant italien</h3>
+                        <p> Réaliser avec Javas-Script, Css et Html. Le bute de se projet était de générer l'entièreter d'un site à partir d'une base de donnée en utilisant Javas-Script.
+
+                        </p>
+                    </div>
                 </a>
             </section>
         </section>
     </main>
     <footer id="contact">
-    <section>
-            <div class="empty"></div>
+        <section>
             <h2> Me contacter</h2>
             <p class="end">Vous voulez me contacter pour un projet ou une offre d'emploi ? C'est par là !</p>
-<form action="submit">
-    <input type="text">
-    <button type=""submit> me contacter</button>
-</form>
+            <form action="submit">
+                <div>
+                    <p>Nom</p>
+                    <input type="text">
+                </div>
+                <div>
+
+                    <p>Prénom</p>
+                    <input type="text">
+                </div>
+                <div>
+
+                    <p>Adresse mail</p>
+                    <input type="text">
+                </div>
+                <button id="steve" type="submit"> me contacter</button>
+            </form>
         </section>
 
-            <section class="logo">
-                <a class="contacter" href="https://github.com/Clarisse-Dib"><i class="fa-brands fa-github"></i></a>
-                <a class="contacter" href="clarisse.dib06@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-                <a class="contacter" href="https://fr.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
-            </section>
+        <section class="logo">
+            <a class="contacter" href="https://github.com/Clarisse-Dib"><i class="fa-brands fa-github"></i></a>
+            <a class="contacter" href="clarisse.dib06@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a class="contacter" href="https://fr.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+        </section>
     </footer>
 </body>
 
